@@ -78,7 +78,7 @@ public class Vehiculo {
     public double calcularCosto(int dias) {
         double costo = dias * precioPorDia;
         if (dias > 7) {
-            costo *= 0.9; // Descuento del 10%
+            costo *= 0.9;
         }
         return costo;
     }
